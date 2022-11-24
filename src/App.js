@@ -1,6 +1,7 @@
 
 import Navbar from './Navbar';
 import Home from './Home';
+import Create from './Create';
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
       
       <div className='content'>
         <Home />
+        <Create/>
       </div>
     </div>
   );
